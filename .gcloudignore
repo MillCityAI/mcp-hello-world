@@ -1,0 +1,68 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs (built in container)
+dist/
+build/
+
+# Test and coverage files
+coverage/
+.nyc_output/
+.vitest/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git/
+.gitignore
+
+# Documentation (not needed for deployment)
+Documentation/
+README.md
+*.md
+
+# Test files
+tests/
+test/
+**/*.test.js
+**/*.test.ts
+**/*.spec.js
+**/*.spec.ts
+
+# Config files not needed in container
+.eslintrc*
+.prettierrc*
+tsconfig*.json
+vitest.config.ts
+eslint.config.js
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Cloud Build files
+cloudbuild.yaml
+.gcloudignore
